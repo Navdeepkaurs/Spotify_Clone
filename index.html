@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <!-- logo -->
+    <link rel="icon" href="./assets/logo.png">
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+<div class="main">
+    <div class="sidebar">
+        <div class="nav">
+            <div class="nav-option" style="opacity:1;">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+            </div>
+        </div>
+        <div class="library">
+            <div class="options">
+                <div class="lib-option nav-option">
+                    <img src="./assets/library_icon.png" alt="">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="lib-box">
+                <h3>Current playlists</h3>
+                <div class="box-playlist">
+                    <div class="playlist1">
+                        <img src="./assets2/playlist1.png" alt="">
+                        <div class="dis-1">
+                            <div class="playlist-p1">Liked Songs</div>
+                            <div class="playlist-p2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="#1bd730" class="bi bi-pin-angle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a6 6 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707s.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a6 6 0 0 1 1.013.16l3.134-3.133a3 3 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146" />
+                                </svg> Playlist . 365 songs</div>
+                        </div>
+                    </div>
+                    <div class="playlist1">
+                        <img src="./assets2/playlist2.jpeg" alt="">
+                        <div class="dis-1">
+                            <div class="playlist-p1">🖤Melody🎵</div>
+                            <div class="playlist-p2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="#1bd730" class="bi bi-pin-angle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a6 6 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707s.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a6 6 0 0 1 1.013.16l3.134-3.133a3 3 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146" />
+                                </svg> Playlist . Inara</div>
+                        </div>
+                    </div>
+                    <div class=" playlist1">
+                        <img src="./assets2/playlist3.jpeg" alt="">
+                        <div class="dis-1">
+                            <div class="playlist-p1">Vibezz❤️</div>
+                            <div class="playlist-p2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="#1bd730" class="bi bi-pin-angle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a6 6 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707s.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a6 6 0 0 1 1.013.16l3.134-3.133a3 3 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146" />
+                                </svg> Playlist . Inara</div>
+                        </div>
+                    </div>
+                    <div class=" playlist1">
+                        <img src="./assets2/playlist4.jpeg" alt="">
+                        <div class="dis-1">
+                            <div class="playlist-p1">On..GO..🩷</div>
+                            <div class="playlist-p2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="#1bd730" class="bi bi-pin-angle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a6 6 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707s.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a6 6 0 0 1 1.013.16l3.134-3.133a3 3 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146" />
+                                </svg> Playlist . Inara</div>
+                        </div>
+                    </div>
+                    <div class=" playlist1">
+                        <img src="./assets2/playlist5.jpeg" alt="">
+                        <div class="dis-1">
+                            <div class="playlist-p1">Punjabi 101</div>
+                            <div class="playlist-p2">Playlist . Spotify</div>
+                        </div>
+                    </div>
+                    <div class="playlist1">
+                        <img src="./assets2/playlist6.jpeg" alt="">
+                        <div class="dis-1">
+                            <div class="playlist-p1">Favourites</div>
+                            <div class="playlist-p2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="#1bd730" class="bi bi-pin-angle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a6 6 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707s.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a6 6 0 0 1 1.013.16l3.134-3.133a3 3 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146" />
+                                </svg> Playlist . anonymous</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy we'll help you</p>
+                    <button class="badge b1">Create playlist</button>
+                </div>
+                <div class="box">
+                    <p class="box-p1">Let's find some podcasts to follow</p>
+                    <p class="box-p2">we'll keep you updated on new episodes </p>
+                    <button class="badge b2">Browse posdcast</button>
+                </div>
+            </div>
+            <br><br><br><br><br><br>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="sticky-nav">
+            <div class="sticky-nav-icons">
+                <img src="./assets/backward_icon.png" alt="icon">
+                <img src="./assets/forward_icon.png" alt="icon" class="hide">
+            </div>
+            <div class="sticky-nav-options">
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down "
+                        style="margin-right:5px;"></i>Install app</button>
+                <i class="fa-regular fa-user nav-item"></i>
+            </div>
+        </div>
+        <button class="button-1" hide>All</button>
+        <button class="button-2 " hide>Music</button>
+        <button class="button-3 " hide>Podcast</button>
+        <h2 class="h2s">Your top artists of week</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./assets/art1.jpg" class="card-img1">
+                <p class="card-title">Yo Yo Honey singh</p>
+                <p class="card-info">This is Yo Yo Honey Singh. The essential...</p>
+            </div>
+            <div class="card">
+                <img src="./assets/ar2.jpeg" class="card-img1">
+                <p class="card-title">AP Dhillon</p>
+                <p class="card-info">By spotify</p>
+            </div>
+            <div class="card">
+                <img src="./assets/art3.jpeg" class="card-img1">
+                <p class="card-title">Diljit Dosanjh</p>
+                <p class="card-info">Punjabi superstar's biggest hits.</p>
+            </div>
+        </div>
+        <h2 class="h2s">Made For you</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./assets2/daily-discover.jpeg" class="card-img">
+                <p class="card-title">Discover Weekly</p>
+                <p class="card-info">Your weekly mixtape of fresh music. Enjoy new...</p>
+            </div>
+            <div class="card">
+                <img src="./assets/daily1.jpeg" class="card-img">
+                <p class="card-title">Daily mix 1</p>
+                <p class="card-info">Pritam, Arijit Singh, Yo Yo Honey Singh and more</p>
+            </div>
+            <div class="card">
+                <img src="./assets/daily2.jpeg" class="card-img">
+                <p class="card-title">Daily mix 2</p>
+                <p class="card-info">KR$NA, DIVINE, Raftaar and more</p>
+            </div>
+            <div class="card">
+                <img src="./assets/daily3.jpeg" class="card-img">
+                <p class="card-title">Daily mix 3</p>
+                <p class="card-info">Jassie Gill, Karan Aujla, Shubh and more</p>
+            </div>
+            <div class="card">
+                <img src="./assets/daily4.jpeg" class="card-img">
+                <p class="card-title">Daily mix 4</p>
+                <p class="card-info">Zehr Vibe, Tegi Pannu, Gurnam Bhullar and more</p>
+            </div>
+        </div>
+        <h2 class="h2s">Love is Chill</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./assets2/love1.jpeg" class="card-img">
+                <p class="card-title">Lofi Vibe hindi</p>
+                <p class="card-info">Inhale & exhale to the beats of Lofi.</p>
+            </div>
+            <div class="card">
+                <img src="./assets2/love2.jpeg" class="card-img">
+                <p class="card-title">I-Pop Chill</p>
+                <p class="card-info">Your escape to the world of chill Indian pop. Cov...</p>
+            </div>
+            <div class="card">
+                <img src="./assets2/love3.jpeg" class="card-img">
+                <p class="card-title">Bollywood & Chill</p>
+                <p class="card-info">Sit back, and chill with Bollywood's easygoing...</p>
+            </div>
+            <div class="card">
+                <img src="./assets2/love4.jpeg" class="card-img">
+                <p class="card-title">Chill Station</p>
+                <p class="card-info">Soft chill for the dreamy✨</p>
+            </div>
+            <div class="card">
+                <img src="./assets2/love5.jpeg" class="card-img">
+                <p class="card-title">Chill Karlo</p>
+                <p class="card-info">Sit Back, Unwind Te Thand Rakho! Cover:...</p>
+            </div>
+        </div>
+        <h2 class="h2s">Newly added this week</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./assets2/ghost.jpeg" class="card-img">
+                <p class="card-title">Ghost</p>
+                <p class="card-info">Diljit Dosanjh</p>
+            </div>
+            <div class="card">
+                <img src="./assets2/stillrollin.jpeg" class="card-img">
+                <p class="card-title">Still Rollin</p>
+                <p class="card-info">Shubh</p>
+            </div>
+            <div class="card">
+                <img src="./assets2/hasshass.jpeg" class="card-img">
+                <p class="card-title">Hass Hass</p>
+                <p class="card-info">Diljit Dosanjh</p>
+            </div>
+
+            <div class="card">
+                <img src="./assets2/drop7.jpeg" class="card-img">
+                <p class="card-title">Drop 7</p>
+                <p class="card-info">Little Simz</p>
+            </div>
+            <div class="card">
+                <img src="./assets2/wallofeyes.jpeg" class="card-img">
+                <p class="card-title">Wall Of Eyes</p>
+                <p class="card-info">The Smile</p>
+            </div>
+        </div>
+        <h2 class="h2s">Featured Charts</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./assets/card5img.jpeg" class="card-img">
+                <p class="card-title">Top Songs -Global</p>
+                <p class="card-info">Your daily updates of the most played songs globaly...</p>
+            </div>
+            <div class="card">
+                <img src="./assets/card6img.jpeg" class="card-img">
+                <p class="card-title">Top Songs - India</p>
+                <p class="card-info">Your on go playlist for top Indian songs...</p>
+            </div>
+            <div class="card">
+                <img src="./assets/card1img.jpeg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily update of the most played tracks right...</p>
+            </div>
+            <div class="card">
+                <img src="./assets/top-50-global.jpg" class="card-img">
+                <p class="card-title">Viral 50 - Global</p>
+                <p class="card-info">Your daily update of the most viral tracks right...</p>
+            </div>
+            <div class="card">
+                <img src="./assets/top-50-india.jpg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily update of the most played tracks right...</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="music-player">
+        <div class="left-play">
+            <img src="./assets2/album_picture.jpeg" alt="" class="left-album">
+            <div class="album-des">
+                <div class="music-p">Daylight</div>
+                <div class="span">David Kushner</div>
+            </div>
+            <div class="left-icon1"><i class="fa-regular fa-heart"></i></div>
+        </div>
+        <div class="center-play">
+            <div class="player-controls">
+                <img src="./assets/player_icon1.png" alt="icon" class="player-control-icon">
+                <img src="./assets/player_icon2.png" alt="icon" class="player-control-icon">
+                <img src="./assets/player_icon3.png" alt="icon" class="player-control-icon"
+                    style="opacity:1;height:2rem;">
+                <img src="./assets/player_icon4.png" alt="icon" class="player-control-icon">
+                <img src="./assets/player_icon5.png" alt="icon" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="current-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar" step="1">
+                <span class="total-time">3:00</span>
+
+            </div>
+        </div>
+        <div class="right-play">
+            <img src="./assets2/controls_icon1.png" alt="icon" class="right-play-icon1">
+            <img src="./assets2/controld_icon2.png" alt="icon" class="right-play-icon2">
+            <img src="./assets2/controls_icon3.png" alt="icon" class="right-play-icon3">
+            <img src="./assets2/controls_icon4.png" alt="icon" class="right-play-icon4" style="height: 1.2rem;
+    width: 1.2rem;">
+            <img src="./assets2/controls_icon5.png" alt="icon" class="right-play-icon5">
+            <input type="range" min="0" max="100" class="progress-bar2" step="1">
+        </div>
+    </div>
+</div>
+
+<body>
+
+
+
+
+
+</body>
+
+</html>
